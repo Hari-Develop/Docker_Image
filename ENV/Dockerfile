@@ -30,5 +30,5 @@ LABEL maintainer="Hari (DevOps)"
 ENV Docker="software"
 
 # Start Nginx in daemon mode
-CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
 
